@@ -1,0 +1,10 @@
+import os
+from core.utils import run_inference 
+
+if __name__=="__main__":
+    run_inference(
+        # "results/train/weights/best.pt",
+        "SCUT_HEAD.pt",
+        "datasets/test/SCUT-HEAD", 
+        "results/predict/SCUT-HEAD-self"
+        )

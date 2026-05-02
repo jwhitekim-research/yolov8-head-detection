@@ -1,0 +1,10 @@
+/**/__pycache__
+datasets/
+SCUT-HEAD/
+
+train_result/
+
+yolov8s.pt
+yolov8m.pt
+yolo11n.pt
+scut_head.pt
